@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    image: YOUR_DOCKERHUB_USERNAME/todo-app:latest
+    image: hashir2078/todo-app:latest
     ports:
       - "3000:3000"
     environment:
